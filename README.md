@@ -2,11 +2,11 @@
 
 Name: Cathy Chen
 
-Andrew ID: qiyangch
+
 
 ## Introduction
 
-This document helps with data extraction, transform, and load of American Community Survey (ACS)  from [U.S. Census Bureau’s API](https://www.census.gov/data/developers.html). The ACS was built in 2005, which produces survey-based estimates and provides a great variety of social, economic, demographic, and housing information to the public. 
+This document helps with data extraction, transformation, and loading of the American Community Survey (ACS) from [The U.S. Census Bureau’s API](https://www.census.gov/data/developers.html). The ACS was built in 2005, producing survey-based estimates and providing a great variety of social, economic, demographic, and housing information. 
 
 
 
@@ -20,7 +20,7 @@ This document helps with data extraction, transform, and load of American Commun
 
 ### Get Data
 
-In order to pull data from ACS data,  the package ***census*** is used, which allows the users to contain an easy access to  [U.S. Census Bureau’s API.](https://www.census.gov/data/developers.html) Specifically, the package provides a class for census geographies and functions to obtain information about different variables and tables. You can learn more about this package from [here.](https://jtleider.github.io/censusdata/)
+In order to pull data from ACS data,  the package ***census*** is used, which allows the users to contain an easy access to [The U.S. Census Bureau’s API.](https://www.census.gov/data/developers.html) Specifically, the package provides a class for census geographies and functions to obtain information about different variables and tables. You can learn more about this package from [here.](https://jtleider.github.io/censusdata/)
 
 - **Census Geographies**: representing the targeted census geographies.
 
@@ -52,9 +52,7 @@ In order to pull data from ACS data,  the package ***census*** is used, which al
   
   ```
 
-  To summarize, I collect the ACS data in Iowa and explore the variables related to labor force, male education status over 25 years old (high school graduates and master graduates), and the total value (less than $10,000 and $50,000-$59,999). I wonder if the male education status, total value, and identification of labor force varies in Iowa's different block groups or counties. If the male education status and total value will affect the estimates of labor force?
-
-  ![image-20210905232302660](C:\Users\Cathy Chen\AppData\Roaming\Typora\typora-user-images\image-20210905232302660.png)
+  To summarize, I collect the ACS data in Iowa and explore the variables related to the labor force, male education status over 25 years old (high school graduates and master graduates), and the total value (less than $10,000 and $50,000-$59,999). I wonder if the male education status, total value, and identification of the labor force vary in Iowa's different block groups or counties. If the male education status and the total value will affect the estimates of the labor force?
 
 ---
 
